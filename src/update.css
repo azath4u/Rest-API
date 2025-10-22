@@ -1,0 +1,134 @@
+.update-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Centers horizontally */
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.update-page h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* === ID Input === */
+.id-input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.id-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* === Fetch Button (Get Details) === */
+.update-page button {
+  width: 260px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.update-page button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+/* === Messages === */
+.error {
+  color: #ff4c4c;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.success {
+  color: #28a745;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+/* === Update Section === */
+.updatedetails {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.updatedetails h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.updatedetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.updatedetails li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.updatedetails label {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.updatedetails input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.updatedetails input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* === Update Button === */
+.updatedetails button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.updatedetails button:hover {
+  background-color: #1e7e34;
+  transform: scale(1.02);
+}

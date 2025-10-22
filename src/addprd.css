@@ -1,0 +1,66 @@
+.addprdctn{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: white;
+width:400px;
+padding: 20px 20px;
+gap:20px;
+border-radius: 6px;
+
+}
+.addprdctn input{
+    width:300px;
+    height: 10px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.addprdctn label{
+text-align: start;
+font-size: 22px;
+font-weight: bold;
+}
+.addprdctn button{
+    width: 100px;
+    height: 30px;
+    font-size: 22px;
+    background-color:lightseagreen;
+    color: black;
+    border-radius: 4px;
+    border: none;
+}
+.addprdctn button:hover{
+    background-color:darkseagreen;
+}
+.addprd h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.addprd p{
+    font-size: 20px;
+    color: red;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.input-group label {
+  width: 100px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}

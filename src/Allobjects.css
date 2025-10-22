@@ -1,0 +1,106 @@
+.allobjects {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #EEC0C8, #F3C6A5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+
+.allobjects h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #5a3e3e;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.allobjects ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+
+.allobjects li {
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.allobjects li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+.objectsbyid{
+display: flex;
+flex-direction: column;
+align-items: center;
+ font-family: "Poppins", sans-serif;
+  color: #333;
+  gap:15px;
+}
+.objectsbyid input{
+  width:200px;
+  height: 40px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.objectsbyid button{
+  width: 100px;
+  height:30px;
+  background-color: cornsilk;
+  color: #333;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+}
+.objectsbyid button:hover{
+  background-color: antiquewhite;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.allobjects li {
+  animation: fadeIn 0.4s ease-in;
+}
+/* ✅ Button container */
+.allobjects li .objbtn {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* <-- Adds space between the two buttons */
+  margin-top: 10px;
+}
+
+/* ✅ Buttons themselves */
+.allobjects li .objbtn button {
+  background-color: #f3c6a5;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.allobjects li .objbtn button:hover {
+  background-color: coral;
+}
