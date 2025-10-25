@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ToDoRouter/static/css/main.46558580.css",
+    "main.js": "/ToDoRouter/static/js/main.5926d0d6.js",
+    "index.html": "/ToDoRouter/index.html",
+    "main.46558580.css.map": "/ToDoRouter/static/css/main.46558580.css.map",
+    "main.5926d0d6.js.map": "/ToDoRouter/static/js/main.5926d0d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46558580.css",
+    "static/js/main.5926d0d6.js"
+  ]
+}
